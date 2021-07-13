@@ -1,0 +1,205 @@
+@import '../../global.scss';
+
+.price{
+    position: absolute;
+    top: 300%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-bottom: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include mobile{
+        top: 525%;
+        width: 177vw;
+        height: 177vh;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    h1{
+        text-align: center;
+        @include  mobile{
+            font-size: 50px;
+        }
+    }
+    .container{
+        display: flex;
+        width: 1000px;
+        overflow: hidden;
+        justify-content: space-evenly;
+        @include mid{
+            width: 600px;
+            justify-content: space-evenly;
+        }
+        @include mobile{
+            flex-direction: column;
+            align-items: center;
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 230px;
+            border: 1px black solid;
+            border-radius: 5px;
+            box-shadow: 1px 1px 3px black;
+            @include mid{
+                width: 200px;
+                height: 300px;
+                border: none;
+                border-right: 2px solid grey;
+                border-radius: 0px;
+                box-shadow: none;
+                
+            }
+            @include mobile{
+                width: 600px;
+                height: 270px;
+                flex-wrap: wrap;
+                border-radius: none;
+                box-shadow: none;
+                
+                border-right: none;
+                border-bottom: 2px solid grey;
+            }
+            h3{
+                text-transform: capitalize;
+                text-align: center;
+                color: black;
+                @include mid{
+                    font-size: 15px;
+                    
+                }
+                @include mobile{
+                    font-size: 25px;
+                    font-weight: 1000;
+                    
+                }
+            }
+            h2{
+                color: rgb(102, 97, 97);
+                @include mid{
+                    font-size: 18px;
+                    
+                }
+                @include mobile{
+                    font-size: 35px;
+                    
+                }
+            }
+
+            p{
+                text-align: center;
+                text-decoration: underline green 2px;
+                @include mobile{
+                    font-size: 25px;
+                    
+                }
+            }
+
+            .btn1{
+                background-color: rgb(51, 185, 174);
+                border: none;
+                width: 150px;
+                height: 30px;
+                color: white;
+                font-weight: 800;
+                border-radius: 50px;
+                cursor: pointer;
+                @include mid{
+                    height: 25px;
+                    
+                }
+                @include mobile{
+                    height: 50px;
+                    font-size: 20px;
+                }
+                
+            }
+            .btn{
+                background-color:  rgb(199, 86, 221);
+                border: none;
+                width: 150px;
+                height: 30px;
+                color: white;
+                cursor: pointer;
+                font-weight: 800;
+                border-radius: 50px;
+                @include mid{
+                    height: 25px;
+                    
+                }
+                @include mobile{
+                    height: 50px;
+                    font-size: 20px;
+                }
+
+            }
+        }
+    }
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 170px;
+        width: 100%;
+        position: absolute;
+        bottom: 15px;
+        overflow: hidden;
+        padding-top: 20px;
+        justify-content: space-evenly;
+        background-image: url(../pricing/ban1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        @include mobile{
+            // top: 84%;
+            height: 350px;
+           
+            
+
+            
+        }
+        @include mid{
+            height: 130px;
+
+            justify-content: space-between;
+        }
+        h1{
+            color: white;
+            @include mobile{
+                font-size: 30px;
+            }
+        }
+        
+
+        input{
+            width: 300px;
+            height: 30px;
+            font-size: 20px;
+            border: 2px solid grey;
+            outline: none;
+            border-radius: 3px;
+            padding-left: 10px;
+            
+        }
+        button{
+            width: 100px;
+            height: 30px;
+            border-radius: 4px;
+            background-color: yellow;
+            border: none;
+            color: black;
+            font-weight: 700;
+            cursor: pointer;
+            
+
+
+
+        }
+    }
+
+}

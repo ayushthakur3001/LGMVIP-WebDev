@@ -1,0 +1,126 @@
+@import '../../global.scss';
+
+.project{
+    position: absolute;
+    top: 200%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-bottom: 2px solid grey;
+    
+    h1{
+        text-align: center;
+        @include mobile{
+            font-size: 50px;
+            padding-left: 250px;
+
+        }
+    }
+    @include mobile{
+        top: 360%;
+        width: 177vw;
+        height: 167vh;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    
+
+    .container{
+
+        overflow: hidden;
+        display: flex;
+        align-items:  center;
+        justify-content: space-evenly;
+        @include mid{
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        @include mobile{
+            flex-wrap: wrap;
+            
+            position: absolute;
+            padding-top: 150px;
+            
+
+            
+        }
+        
+
+        img{
+            width: 250px;
+            height:300px;
+            @include mid{
+                width: 150px;
+                height:100px;
+            }
+            @include mobile{
+                width: 200px;
+                height:200px;
+            }
+
+        }
+
+        
+        
+
+        .card{
+            width: 250px;
+            height: 500px;
+            border-radius: 5px;
+            background-color: rgb(236, 233, 233);
+            padding: 0px 10px;
+            p{
+                font-size: 15px;
+                @include mid{
+                    // display: none;
+                    text-align: center;
+                }
+                
+            }
+            @include mid{
+                height: 180px;
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 70px;
+                // box-shadow: 1px  1px 5px black;
+                border-bottom: 2px solid grey;
+                border-radius: 0px;
+                
+
+                
+
+            }
+            @include mobile{
+                // height: 150px;
+                width: 250px;
+                height: 400px;
+                background:rgb(236, 233, 233);
+                display: flex;
+                flex-wrap: wrap;
+                border-bottom: 3px black solid;
+                padding-bottom: 10px;
+            }
+
+            .btn{
+                background-color: purple;
+                color: white;
+                border : none;
+                width: 90px;
+                height: 30px;
+                cursor: pointer;
+                border-radius: 2px;
+                @include mobile{
+                    width: 200px;
+                    height: 60px;
+                    font-size: 30px;
+                }
+                @include mid{
+                    display: none;
+                }
+            }
+        }
+    }
+
+}

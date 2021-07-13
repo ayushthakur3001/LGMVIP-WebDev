@@ -1,0 +1,16 @@
+
+$width: 500px;
+$midwidth: 900px;
+$minwidth: 600px;
+
+@mixin mobile{
+    @media(max-width: #{$width}){
+        @content
+    }
+}
+@mixin mid{
+    @media(max-width: #{$midwidth}  ){
+        @content
+    }
+
+}

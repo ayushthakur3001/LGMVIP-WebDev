@@ -1,0 +1,145 @@
+@import '../../global.scss';
+
+.contact{
+    position: absolute;
+    top: 500%;
+    height: 100%;
+    width: 80%;
+    overflow: hidden;
+    border-bottom: 2px solid grey;
+    display: flex;
+    align-items: center;
+    padding-left: 140px;
+    
+    @include mid{
+        width: 100%;
+        padding-left: 0px;
+    }
+    @include mobile{
+        top: 880%;
+        width: 177vw;
+        height: 177vh;
+        flex-direction: column;
+        border-bottom: 2px grey solid;
+    }
+    
+
+
+    .left{
+        width: 500px;
+        @include mid{
+            width: 300px;
+        }
+        @include mobile{
+            width: 500px;
+        }
+        img{
+            width: 500px;
+            height: 490px;
+            padding-top: 4px;
+            @include mid{
+                width: 300px;
+                height: 460px;
+            }
+            @include mobile{
+                width: 500px;
+                height: 360px;
+            }
+            
+        }
+        
+        
+    }
+    .right{
+        width: 500px;
+        background-color: rgba(235, 238, 38, 0.815);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+        height: 80%;
+        @include mid{
+            width: 300px;
+            
+        }
+        @include mobile{
+            width: 500px;
+            height: 744px;
+            border-radius:  0 50px 0 50px;
+            
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        p{
+            font-size: 30px;
+            font-weight: 800;
+            @include mobile{
+                font-size: 50px;
+            }
+        }
+        .lab{
+            font-weight: 800;
+            text-transform: uppercase;
+            @include mobile{
+                font-size: 25px;
+            }
+            
+        }
+        input{
+            width: 200px;
+            height: 25px;
+            border: none;
+            border-radius: 2px;
+            outline: none;
+            @include mobile{
+                width: 350px;
+                height: 40px;
+                font-size: 30px;
+                
+            }
+        }
+        textarea{
+            border: none;
+            border-radius: 2px;
+            outline: none;
+            @include mobile{
+                font-size: 20px;
+
+            }
+        }
+        .block{
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 10px;
+            @include mobile{
+                padding-bottom: 30px;
+            }
+
+        }
+        button{
+            background-color: purple;
+            color: white;
+            font-weight: 700;
+            border: none;
+            width: 205px;
+            height: 30px;
+            cursor: pointer;
+            border-radius: 2px;
+            @include mobile{
+                width: 350px;
+                height: 50px;
+                font-size: 35px;
+            }
+            
+        }
+        button:hover{
+            background-color: rgb(209, 63, 209);
+            color: white;
+            transition: 0.5s ease-in;
+        }
+    }
+}

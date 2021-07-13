@@ -1,0 +1,108 @@
+@import '../../global.scss';
+
+.footer{
+    position: absolute;
+    top: 600%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    h2{
+        text-align: center;
+        @include mobile{
+            font-size: 50px;
+        }
+    }
+    @include mobile{
+        top: 1055%;
+        width: 177vw;
+        height: 177vh;
+        
+    }
+    .team{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 60px;
+        @include mobile{
+            flex-wrap: wrap;
+            flex-direction: column;
+            
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            .con{
+                width: 100px;
+                height: 100px;
+                background-color: grey;
+                overflow: hidden;
+                border-radius: 50%;
+                @include mobile{
+                    width: 150px;
+                    height: 150px;
+                }
+            
+
+
+            }
+            .con:hover{
+                background-color: rgb(212, 197, 197);
+            }
+            p{
+                font-size: 15px;
+                font-weight: 1000;
+                color: black;
+                
+            }
+
+
+            img{
+                width: 100px;
+                @include mobile{
+                    width: 150px;
+                }
+                
+            }
+        }
+    }
+    .foot{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        position: absolute;
+        background-color: rgb(32, 31, 31);
+        height: 200px;
+        width: 100%;
+        bottom: 0;
+
+        h3{
+            text-transform: uppercase;
+        }
+        .address,.follow, .cont{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+        }
+        .images{
+            width: 100px;
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+        img{
+            width: 40px;
+            border: 1px white solid;
+            border-radius: 10px;
+            background-color: transparent;
+            cursor: pointer;
+            
+        }
+        img:hover{
+            background-color: rgb(50, 50, 206);
+        }
+    }
+}
