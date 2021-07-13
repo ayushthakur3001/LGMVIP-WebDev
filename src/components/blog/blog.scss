@@ -6,7 +6,7 @@
     height: 100%;
     width: 100%;
     overflow: hidden;
-    border-bottom: 2px solid grey;
+    // border-bottom: 2px solid grey;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -17,7 +17,7 @@
         }
     }
     @include mobile{
-        top: 700%;
+        top: 720%;
         width: 177vw;
         height: 177vh;
         display: flex;

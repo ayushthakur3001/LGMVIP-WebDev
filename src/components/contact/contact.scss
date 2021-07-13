@@ -6,7 +6,7 @@
     height: 100%;
     width: 80%;
     overflow: hidden;
-    border-bottom: 2px solid grey;
+    // border-bottom: 2px solid grey;
     display: flex;
     align-items: center;
     padding-left: 140px;
@@ -16,7 +16,7 @@
         padding-left: 0px;
     }
     @include mobile{
-        top: 880%;
+        top: 900%;
         width: 177vw;
         height: 177vh;
         flex-direction: column;

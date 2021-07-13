@@ -9,9 +9,9 @@
     align-items: center;
     flex-direction: column;
     overflow: hidden;
-    border-bottom: 2px solid grey;
+    // border-bottom: 2px solid grey;
     @include mobile{
-        top: 177%;
+        top: 190%;
         width: 177vw;
         height: 177vh;
     }
@@ -73,12 +73,13 @@
     .dcontainer{
         width: 600px;
         height: 350px;
-        margin-top: 20px;
+        margin-top: 50px;
         
         display: flex;
         @include mobile{
             flex-direction: column;
             margin-top: 100px;
+            
             
         }
         .imgcontainer{
@@ -95,7 +96,7 @@
             align-items: center;
             flex-direction: column;
             justify-content: center;
-            padding: 10px 10px;
+            padding: 30px 10px;
             .bell{
                 width: 60px;
                 
@@ -123,6 +124,7 @@
                 }
                 @include mobile{
                     font-size: 22px;
+                    display: none;
                 }
                 
             }
