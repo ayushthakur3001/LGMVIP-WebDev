@@ -8,7 +8,7 @@ import face from "../footer/face.png";
 function Footer() {
   return (
     <>
-      <div className="footer">
+      <div className="footer" id="team">
         <h2>WebMaker Team</h2>
         <div className="team">
           <div className="card">

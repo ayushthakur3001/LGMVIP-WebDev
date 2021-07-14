@@ -139,6 +139,11 @@
                 }
 
             }
+            .btn:hover, .btn1:hover{
+                background-color: crimson;
+                color: white;
+                transition: 0.5s ease-out;
+            }
         }
     }
     .newsletter{
@@ -199,6 +204,11 @@
 
 
 
+        }
+        button:hover{
+            background-color: purple;
+            transition: 0.5s ease-out;
+            color: white;
         }
     }
 

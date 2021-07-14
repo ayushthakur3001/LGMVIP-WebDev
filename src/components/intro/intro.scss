@@ -87,14 +87,24 @@ body{
             li{
                 list-style-type: none;
                 padding: 10px 15px;
-                
+                cursor: pointer;
                 @include mid{
                     padding: 20px 6px;
+                    
         
+                }
+                a{
+                    text-decoration: none;
+                    color: white;
                 }
                 
                 
-                
+            }
+            li:hover{
+                background-color: rgb(197, 102, 121);
+                color: white;
+                transition: 0.2s ease-in-out;
+                border-radius: 10px;
             }
         }
     }

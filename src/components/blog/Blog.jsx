@@ -5,7 +5,7 @@ import java from '../blog/java.png'
 function Blog() {
     return (
         <>
-        <div className="blog">
+        <div className="blog" id="blog">
             
             <h1>Blog</h1>
             

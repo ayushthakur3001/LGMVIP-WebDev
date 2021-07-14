@@ -2,7 +2,7 @@ import './price.scss'
 function Price() {
     return (
         <>
-        <div className="price">
+        <div className="price" id="pricing">
             <h1>Pricing Table</h1>
 
             <div className="container">
