@@ -2,6 +2,7 @@
 body{
     padding: 0;
     margin: 0;
+    
 }
 @import '../../global.scss';
 
@@ -39,6 +40,7 @@ body{
             
         }
     }
+
 
     .navbar{
         position: absolute;
@@ -106,6 +108,35 @@ body{
                 transition: 0.2s ease-in-out;
                 border-radius: 10px;
             }
+        }
+    }
+    .plane1{
+        position: absolute;
+        top: 20%;
+        right: 35%;
+        width: 50px;
+        height: 50px;
+    }
+    .plane2{
+        position: absolute;
+        top: 17%;
+        right: 25%;
+        width: 50px;
+        height: 50px;
+    }
+
+    .imgContainer{
+        position: absolute;
+        right: 40%;
+        top: 20%;
+        
+        @include mobile{
+            display: none;
+        }
+       
+        img{
+            width: 400px;
+            height: 400px;
         }
     }
     .container{

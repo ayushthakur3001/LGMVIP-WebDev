@@ -1,11 +1,16 @@
 @import '../../global.scss';
 
+
+
 .footer{
     position: absolute;
     top: 600%;
     height: 100%;
     width: 100%;
     overflow: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-align: start;
+    
     h2{
         text-align: center;
         @include mobile{
@@ -37,7 +42,7 @@
             .con{
                 width: 100px;
                 height: 100px;
-                background-color: grey;
+                
                 overflow: hidden;
                 border-radius: 50%;
                 @include mobile{
@@ -48,9 +53,7 @@
 
 
             }
-            .con:hover{
-                background-color: rgb(212, 197, 197);
-            }
+            
             p{
                 font-size: 15px;
                 font-weight: 1000;
@@ -64,6 +67,7 @@
                 @include mobile{
                     width: 150px;
                 }
+                
                 
             }
         }

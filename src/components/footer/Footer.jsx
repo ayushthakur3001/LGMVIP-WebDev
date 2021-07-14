@@ -1,8 +1,8 @@
 import "./fotter.scss";
 
-import pic1 from "../footer/pic1.png";
+import img1 from "../footer/img1.jpg";
 import pic2 from "../footer/pic2.png";
-import pic3 from "../footer/pic3.png";
+import img2 from "../footer/img2.jpg";
 import linked from "../footer/linked.png";
 import face from "../footer/face.png";
 function Footer() {
@@ -13,24 +13,24 @@ function Footer() {
         <div className="team">
           <div className="card">
             <div className="con">
-              <img src={pic1} alt="img.." />
+              <img src={img1} alt="img.." />
             </div>
             <p>Alex</p>
-            <p>Front-end Developer</p>
+            <p>Back-end Developer</p>
           </div>
           <div className="card">
             <div className="con">
               <img src={pic2} alt="img.." />
             </div>
-            <p>Matt</p>
-            <p>Back-end Developer</p>
+            <p>Ayush Thakur</p>
+            <p>Front-end Developer</p>
           </div>
           <div className="card">
             <div className="con">
-              <img src={pic3} alt="img.." />
+              <img src={img2} alt="img.." />
             </div>
             <p>George</p>
-            <p> SEO Developer</p>
+            <p> SEO Expert</p>
           </div>
         </div>
         <div className="foot">
