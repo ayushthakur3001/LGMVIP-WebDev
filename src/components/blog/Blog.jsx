@@ -26,7 +26,7 @@ function Blog() {
                 </div>
                 <div className="card">
                     <img src={java} alt="" />
-                    <h2>Javscript</h2>
+                    <h2>Javascript</h2>
                     <h3>17 July 2021</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing eliterspiciatis adipisci repudiandae voluptatem verquia</p>
                     <button>Read</button>

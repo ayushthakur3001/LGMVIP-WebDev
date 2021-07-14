@@ -6,7 +6,7 @@
     height: 100%;
     width: 100%;
     overflow: hidden;
-    // border-bottom: 2px solid grey;
+    
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -17,11 +17,12 @@
         }
     }
     @include mobile{
-        top: 740%;
+        top: 735%;
         width: 177vw;
         height: 177vh;
         display: flex;
         flex-wrap: wrap;
+        border-bottom: 2px solid grey;
         
     }
 

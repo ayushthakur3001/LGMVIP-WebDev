@@ -13,21 +13,21 @@ function Project() {
             <div className="card">
                 <img src={img1}  alt="img.." />
                 <h2>Lorem Ipsum</h2>
-                <p>Lorem ipsum dolor siores aperiam sequi fligendi quaerat voluptate nostrum nesciunt ullam minus impedit asperiores eius</p>
+                <p>Lorem ipsum dolor siores aperiam sequnt ullam minus impedit asperiores eius</p>
                 <button className="btn">View Project</button>
 
             </div>
             <div className="card">
                 <img src={img2}  alt="img.."  />
                 <h2>Lorem Ipsum</h2>
-                <p>Lorem ipsum dolor siores aperiam sequi fligendi quaerat voluptate nostrum nesciunt ullam minus impedit asperiores eius</p>
+                <p>Lorem ipsum dolor siores apeluptate nostrum nesciunt ullam minus impedit asperiores eius</p>
                 <button className="btn">View Project</button>
 
             </div>
             <div className="card">
                 <img src={img3}  alt="img.."  />
                 <h2>Lorem Ipsum</h2>
-                <p>Lorem ipsum dolor siores aperiam sequi fligendi quaerat voluptate nostrum nesciunt ullam minus impedit asperiores eius</p>
+                <p>Lorem ipsum dolor siores aperiaate nostrum nesciunt ullam minus impedit asperiores eius</p>
                 <button className="btn">View Project</button>
 
             </div>
@@ -35,7 +35,7 @@ function Project() {
             <div className="card">
                 <img src={img4}  alt="img.."  />
                 <h2>Lorem Ipsum</h2>
-                <p>Lorem ipsum dolor siores aperiam sequi fligendi quaerat voluptate nostrum nesciunt ullam minus impedit asperiores eius</p>
+                <p>Lorem ipsum dolor siores uptate nostrum nesciunt ullam minus impedit asperiores eius</p>
                 <button className="btn">View Project</button>
 
             </div>
