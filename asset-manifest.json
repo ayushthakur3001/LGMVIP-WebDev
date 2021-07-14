@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/LGMVIP-WebDev/static/css/main.a24a147f.chunk.css",
+    "main.css": "/LGMVIP-WebDev/static/css/main.57c38a44.chunk.css",
     "main.js": "/LGMVIP-WebDev/static/js/main.6d6e2263.chunk.js",
     "main.js.map": "/LGMVIP-WebDev/static/js/main.6d6e2263.chunk.js.map",
     "runtime-main.js": "/LGMVIP-WebDev/static/js/runtime-main.dffd38f1.js",
@@ -8,7 +8,7 @@
     "static/js/2.d4a82cc8.chunk.js": "/LGMVIP-WebDev/static/js/2.d4a82cc8.chunk.js",
     "static/js/2.d4a82cc8.chunk.js.map": "/LGMVIP-WebDev/static/js/2.d4a82cc8.chunk.js.map",
     "index.html": "/LGMVIP-WebDev/index.html",
-    "static/css/main.a24a147f.chunk.css.map": "/LGMVIP-WebDev/static/css/main.a24a147f.chunk.css.map",
+    "static/css/main.57c38a44.chunk.css.map": "/LGMVIP-WebDev/static/css/main.57c38a44.chunk.css.map",
     "static/js/2.d4a82cc8.chunk.js.LICENSE.txt": "/LGMVIP-WebDev/static/js/2.d4a82cc8.chunk.js.LICENSE.txt",
     "static/media/back.cbf63af9.png": "/LGMVIP-WebDev/static/media/back.cbf63af9.png",
     "static/media/bell.f2283453.png": "/LGMVIP-WebDev/static/media/bell.f2283453.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.dffd38f1.js",
     "static/js/2.d4a82cc8.chunk.js",
-    "static/css/main.a24a147f.chunk.css",
+    "static/css/main.57c38a44.chunk.css",
     "static/js/main.6d6e2263.chunk.js"
   ]
 }
